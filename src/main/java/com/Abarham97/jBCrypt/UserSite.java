@@ -15,9 +15,9 @@ private long id;
 
     private String password;
 
-    @ManyToOne
-    @JoinColumn(name = "UserID")
-    private Post post;
+//    @ManyToOne
+//    @JoinColumn(name = "UserID")
+//    private Post post;
 
     public UserSite(String userName, String password) {
 
